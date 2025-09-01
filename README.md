@@ -43,8 +43,9 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 
 ## 🚀 How To Run
 
+<!--
 - You can just use the link below for testing it out first before running this locally
-  Link : https://personality-npc.streamlit.app/
+  Link : https://personality-npc.streamlit.app/ -->
 
 1. Install [Ollama](https://ollama.ai).
 2. Pull the model:
@@ -67,8 +68,8 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 
 Type something into the chatbox and the NPC will respond in character.
 
-<!-- - This is how the ui looks like:
-  ![Personality NPC Dialogue System  Demo](images/picture1.png) -->
+- This is how the ui looks like:
+  ![Personality NPC Dialogue System  Demo](images/picture1.png)
 
 ## How i tested it out
 
@@ -78,7 +79,7 @@ Type something into the chatbox and the NPC will respond in character.
 
 ## What I Learned
 
-- I have learned the basics of prompt engineering and what zero-shot prompting is
+- I have learned the basics of prompt engineering and what zero-shot prompting
 - My earlier project didnt have any ui, so i wanted to integrate gui in this.Streamlit makes it dead simple to throw together a prototype UI.
 - Running models locally with Ollama makes is much easier than using an external API, but the laptop needs to support the model as well.
 - For me, my specs could cover a model upto 10B parameters smoothly without any problem
