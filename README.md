@@ -67,6 +67,9 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 
 Type something into the chatbox and the NPC will respond in character.
 
+- This is how the ui looks like:
+  ![Personality NPC Dialogue System  Demo](images/picture1.png)
+
 ## 🧠 What I Learned
 
 - Prompt engineering is powerful: with the right framing, you can “lock” an LLM into a believable personality.
