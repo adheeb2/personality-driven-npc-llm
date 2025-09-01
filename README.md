@@ -43,10 +43,6 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 
 ## 🚀 How To Run
 
-<!--
-- You can just use the link below for testing it out first before running this locally
-  Link : https://personality-npc.streamlit.app/ -->
-
 1. Install [Ollama](https://ollama.ai).
 2. Pull the model:
 
