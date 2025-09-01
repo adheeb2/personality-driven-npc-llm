@@ -1,4 +1,5 @@
 import requests
+import streamlit as st
 import json
 
 url = "http://localhost:11434/api/generate"
