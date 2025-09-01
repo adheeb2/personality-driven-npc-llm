@@ -12,7 +12,7 @@ We’ve also added a Streamlit GUI so you can chat with your NPC in a simple, ga
 
 ---
 
-## 🎯 What It Can Do
+## What It Can Do
 
 - Lock an NPC into a personality and keep responses consistent.
 - Respond in a roleplay-friendly way (not just Q\&A).
@@ -21,14 +21,14 @@ We’ve also added a Streamlit GUI so you can chat with your NPC in a simple, ga
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. Player input goes through a Streamlit UI.
 2. Python sends it to the Ollama API.
 3. A prompt template makes sure the NPC replies in-character.
 4. The dialogue history is saved in session state, so conversations feel continuous.
 
-It’s not fancy AI agent stuff — just smart prompt engineering plus a lightweight UI. But it works.
+It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweight UI. But it works.
 
 ---
 
