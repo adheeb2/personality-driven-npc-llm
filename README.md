@@ -4,9 +4,11 @@
 
 This is my 2nd Project in "15 projects to master Conversational AI" series
 This project is a simple but fun experiment: building an **NPC that talks like it has a personality**.
-Instead of generic chatbot answers, the NPC stays in-character — whether that’s a _grumpy blacksmith_ who hates customers or a _cheerful bard_ who won’t stop rhyming.
+Instead of generic chatbot answers, the NPC stays in-character. You could provide any personality you would like and it would answer in that way.
 
-It’s powered by **Ollama** running **Llama 3.1 locally**, so no cloud APIs or internet required. The setup makes it a nice playground for game devs, hobbyists, or anyone curious about how prompt engineering can shape an AI’s voice.
+It’s powered by **Ollama** running **Llama 3.1 locally**, so no cloud APIs or internet required.
+
+We’ve also added a Streamlit GUI so you can chat with your NPC in a simple, game-like interface.
 
 ---
 
