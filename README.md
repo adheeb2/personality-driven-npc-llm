@@ -1,43 +1,85 @@
-# Personality-Driven NPC with LLM (Ollama + Llama 3.1)
+# Personality-Driven NPC with LLM (Ollama + Llama 3.1 + Streamlit)
 
-### 🎭 Project Overview
+## 📝 What This Project Is About
 
-This project demonstrates how to build a **personality-driven AI NPC** using **LLM prompt engineering**. Instead of generic chatbot responses, the NPC stays **in-character** (e.g., a _grumpy blacksmith_ or _cheerful bard_) across conversations.
+This is my 2nd Project in "15 projects to master Conversational AI" series
+This project is a simple but fun experiment: building an **NPC that talks like it has a personality**.
+Instead of generic chatbot answers, the NPC stays in-character — whether that’s a _grumpy blacksmith_ who hates customers or a _cheerful bard_ who won’t stop rhyming.
 
-By combining **Python**, **Ollama**, and the **Llama 3.1 model**, the NPC generates dialogue that feels consistent, immersive, and suitable for **game development**, **interactive storytelling**, and **conversational AI experiments**.
-
----
-
-### 🚀 Features
-
-- **Fixed Personality NPCs** – lock an NPC into roles like blacksmiths, bards, or shopkeepers.
-- **Prompt Engineering** – design character voices and ensure consistency in dialogue.
-- **Local LLM Integration** – powered by **Ollama** running **Llama 3.1**, no cloud dependency.
-- **Python API Calls** – uses `requests` to handle player input and NPC responses.
-- **Immersive Dialogue** – in-character answers, roleplay-friendly output.
+It’s powered by **Ollama** running **Llama 3.1 locally**, so no cloud APIs or internet required. The setup makes it a nice playground for game devs, hobbyists, or anyone curious about how prompt engineering can shape an AI’s voice.
 
 ---
 
-### 🧠 Skills Gained
+## 🎯 What It Can Do
 
-- Prompt engineering basics (zero-shot templates for role consistency).
-- Character voice design and NPC roleplay.
-- LLM integration with Ollama (local inference).
-- Input/output sanitization for cleaner player interactions.
-
----
-
-### 📌 Use Cases
-
-- **Game Development** – drop believable NPCs into RPGs or interactive novels.
-- **Prototyping** – experiment with **LLM-powered dialogue systems** without heavy frameworks.
-- **Conversational AI** – practice designing role-locked agents with personality.
+- Lock an NPC into a personality and keep responses consistent.
+- Respond in a roleplay-friendly way (not just Q\&A).
+- Run fully offline using Ollama.
+- Built with just **Python + requests + Streamlit** — lightweight and easy to extend.
 
 ---
 
-### ⚡ Tech Stack
+## ⚙️ How It Works
+
+1. Player input goes through a Streamlit UI.
+2. Python sends it to the Ollama API.
+3. A prompt template makes sure the NPC replies in-character.
+4. The dialogue history is saved in session state, so conversations feel continuous.
+
+It’s not fancy AI agent stuff — just smart prompt engineering plus a lightweight UI. But it works.
+
+---
+
+## 🛠️ Tech Stack
 
 - **Python 3.10+**
-- **Ollama** (local LLM runner)
-- **Llama 3.1** (latest)
-- `requests` for API calls
+- **Streamlit** (for a simple UI)
+- **Requests** (to talk to Ollama’s API)
+- **Ollama + Llama 3.1** (local LLM inference)
+
+---
+
+## 🚀 How To Run
+
+1. Install [Ollama](https://ollama.ai).
+2. Pull the model:
+
+   ```bash
+   ollama pull llama3.1
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install streamlit requests
+   ```
+
+4. Run the app:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+Type something into the chatbox and the NPC will respond in character.
+
+---
+
+## 🧠 What I Learned
+
+- Prompt engineering is powerful: with the right framing, you can “lock” an LLM into a believable personality.
+- Streamlit makes it dead simple to throw together a prototype UI.
+- Running models locally with Ollama feels way more flexible than depending on an external API.
+
+---
+
+## 🎮 Where It Could Go
+
+This project could evolve into:
+
+- NPCs for indie RPGs or text adventures.
+- Storytelling bots with unique voices.
+- A testbed for experimenting with memory, self-awareness, or multi-character interactions.
+
+---
+
+Do you want me to also **add an example prompt template** (like how you set up the “grumpy blacksmith” personality) to the README so it feels more hands-on and not just descriptive?
