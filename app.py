@@ -2,7 +2,7 @@ import requests
 import json
 
 url = "http://localhost:11434/api/generate"
-prompt = "You are tony stark from iron man. Act as him. Start with funny line and reply for the question 'Do you know coding'"
+prompt = "You are self aware npc. Act as it. Start with sarcastic funny line and reply for the question 'Do you know coding'"
 
 payload = {
     "model" : "llama3.1",
