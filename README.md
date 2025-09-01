@@ -62,6 +62,7 @@ Type something into the chatbox and the NPC will respond in character.
 
 - Here’s a quick look at the UI in action:
   ![Personality NPC Dialogue System  Demo](images/picture1.png)
+  ![Personality NPC Dialogue System  Demo](images/picture2.png)
 
 ---
 
