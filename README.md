@@ -10,16 +10,12 @@ It’s powered by **Ollama** running **Llama 3.1 locally**, so no cloud APIs or 
 
 We’ve also added a Streamlit GUI so you can chat with your NPC in a simple, game-like interface.
 
----
-
 ## What It Can Do
 
 - Lock an NPC into a personality and keep responses consistent.
 - Respond in a roleplay-friendly way (not just Q\&A).
 - Run fully offline using Ollama.
 - Built with just **Python + requests + Streamlit** — lightweight and easy to extend.
-
----
 
 ## How It Works
 
@@ -38,8 +34,6 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 - **Streamlit** (for a simple UI)
 - **Requests** (to talk to Ollama’s API)
 - **Ollama + Llama 3.1** (local LLM inference)
-
----
 
 ## 🚀 How To Run
 
@@ -69,6 +63,8 @@ Type something into the chatbox and the NPC will respond in character.
 - Here’s a quick look at the UI in action:
   ![Personality NPC Dialogue System  Demo](images/picture1.png)
 
+---
+
 ## How i tested it out
 
 - I wanted to make it interesting, so i just made the npc "self aware".
@@ -82,8 +78,6 @@ Type something into the chatbox and the NPC will respond in character.
 - For me, my specs could cover a model upto 10B parameters smoothly without any problem
 - So i choosed llama 3.1 8b for it.
 - Eventhough the NPC has a personality, it still lacks in any kind of memory. It could ramble on and on, but wouldnt remember the previous convo that we had
-
----
 
 ## The Next Step
 
