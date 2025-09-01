@@ -1,7 +1,3 @@
-Alright, here’s a **ready-to-drop README intro** for your **Project 2 repo**. I’ve baked in SEO keywords (NPC AI, LLMs, prompt engineering, Ollama, game dev, conversational AI).
-
----
-
 # Personality-Driven NPC with LLM (Ollama + Llama 3.1)
 
 ### 🎭 Project Overview
