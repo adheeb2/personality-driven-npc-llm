@@ -1,6 +1,6 @@
 # Personality-Driven NPC with LLM (Ollama + Llama 3.1 + Streamlit)
 
-## 📝 What This Project Is About
+## What This Project Is About
 
 This is my 2nd Project in "15 projects to master Conversational AI" series
 This project is a simple but fun experiment: building an **NPC that talks like it has a personality**.
@@ -43,6 +43,9 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 
 ## 🚀 How To Run
 
+- You can just use the link below for testing it out first before running this locally
+  Link : https://personality-npc.streamlit.app/
+
 1. Install [Ollama](https://ollama.ai).
 2. Pull the model:
 
@@ -53,7 +56,7 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 3. Install dependencies:
 
    ```bash
-   pip install streamlit requests
+   pip install streamlit requests json
    ```
 
 4. Run the app:
@@ -63,8 +66,6 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
    ```
 
 Type something into the chatbox and the NPC will respond in character.
-
----
 
 ## 🧠 What I Learned
 
@@ -83,5 +84,3 @@ This project could evolve into:
 - A testbed for experimenting with memory, self-awareness, or multi-character interactions.
 
 ---
-
-Do you want me to also **add an example prompt template** (like how you set up the “grumpy blacksmith” personality) to the README so it feels more hands-on and not just descriptive?
