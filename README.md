@@ -66,30 +66,30 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
 
 Type something into the chatbox and the NPC will respond in character.
 
-- This is how the ui looks like:
+- Here’s a quick look at the UI in action:
   ![Personality NPC Dialogue System  Demo](images/picture1.png)
 
 ## How i tested it out
 
 - I wanted to make it interesting, so i just made the npc "self aware".
 - The conversations that take place is good, and this model really achieves the simple purpose of adding a personality to NPC
-- But the NPC still doesnt have any kind of memory. It could ramble on and on, but wouldnt remember the previous convo that we had
 
 ## What I Learned
 
-- I have learned the basics of prompt engineering and what zero-shot prompting
+- I learned the basics of prompt engineering and zero-shot prompting
 - My earlier project didnt have any ui, so i wanted to integrate gui in this.Streamlit makes it dead simple to throw together a prototype UI.
 - Running models locally with Ollama makes is much easier than using an external API, but the laptop needs to support the model as well.
 - For me, my specs could cover a model upto 10B parameters smoothly without any problem
 - So i choosed llama 3.1 8b for it.
-- Eventhough NPC have a personality, it still lacks in any kind of memory. It could ramble on and on, but wouldnt remember the previous convo that we had
+- Eventhough the NPC has a personality, it still lacks in any kind of memory. It could ramble on and on, but wouldnt remember the previous convo that we had
 
 ---
 
 ## The Next Step
 
-- The next crucial step is creating my 3rd NPC project
-- This time the NPC would remember past interactions using a short term and long term memory
-- I think on using SQlite DB or pinecone for it
+- This was my step 2 in my 15 project journey
+- The next crucial step is creating my 3rd NPC project with memory, short and long term
 
----
+## Authors
+
+- [Adheeb anvar](https://www.github.com/adheeb2)
