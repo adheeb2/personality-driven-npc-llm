@@ -50,13 +50,15 @@ It’s not fancy AI agent stuff, just some zero-shot prompting plus a lightweigh
    ollama pull llama3.1
    ```
 
-3. Install dependencies:
+3. Run a virtual python env and activate it
+
+4. Install dependencies:
 
    ```bash
    pip install streamlit requests json
    ```
 
-4. Run the app:
+5. Run the app:
 
    ```bash
    streamlit run app.py
